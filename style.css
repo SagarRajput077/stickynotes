@@ -1,0 +1,61 @@
+#main {
+width: 100vw;
+height: 100vh;
+display: flex;
+background-color: rgba(128, 128, 128, 0.478);
+
+}
+
+#sticky {
+    height: 260px;
+    width: 260px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 5px black;
+    
+}
+#left{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner{
+ display: flex;
+ flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+#title{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right:5px ;
+}
+.dicbottom{
+    display: flex;
+    flex-direction: row;
+}
+.dicbottom button{
+    margin-right: 20px;
+} 
+#right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#sticky button{
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background: black
+}
