@@ -6,8 +6,6 @@ let appenda = "";
 
 
 
-
-
 let btn = document.getElementById("btn").addEventListener("click", () => {
     if(title.value==='' || textcontent.value=== ''){
         alert('Enter the Title / Description');
@@ -26,6 +24,7 @@ let textarea=document.createElement("textarea");
 textarea.classList.add("textarea");
 textarea.style.height="200px";
 textarea.style.width="200px";
+textarea.style.color='white';
 textarea.style.backgroundColor=colorvalue.value;
 textarea.innerHTML=textcontent.value;
 
@@ -33,14 +32,14 @@ newdiv.appendChild(textarea);
 
   let close = document.createElement("button");
   close.classList.add("close");
-  close.style.height="20px";
-  close.style.width="30px";
+  close.style.height="30px";
+  close.style.width="50px";
   close.innerHTML = "X";
 
   let edit=document.createElement("button");
   edit.classList.add("edit");
-  edit.style.height="20px";
-  edit.style.width="30px";
+  edit.style.height="30px";
+  edit.style.width="50px";
   edit.innerHTML="✏️";
   edit.addEventListener("click",()=>{
     console.log("clicked")
